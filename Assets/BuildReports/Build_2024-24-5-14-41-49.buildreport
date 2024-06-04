@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1521398425 &-6158382257170823525
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!382020655 &-729709018803199706
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - Unity.VisualScripting.Antlr3.Runtime
+  - nunit.framework
+  m_EditorPlugins:
+  - Unity.VisualScripting.sqlite3
+  - Unity.Plastic.Newtonsoft.Json
+  - unityplastic
+  - Unity.Plastic.Antlr3.Runtime
+  - Unity.VisualScripting.YamlDotNet
+  - Unity.VisualScripting.TextureAssets
+  - zlib64Plastic
+  - Unity.VisualScripting.IonicZip
+  - liblz4Plastic
+  - JetBrains.Rider.PathLocator
+  - log4netPlastic
+  - lz4x64Plastic
+  - ReportGeneratorMerged
+  - AppleEventIntegration
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Report
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638521261033354571
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    subtarget: 0
+    options: 1
+    assetBundleOptions: 0
+    outputPath: C:/work/Jenkins_test/test.exe
+    crc: 0
+    totalSize: 0
+    totalTimeTicks: 59144255
+    totalErrors: 9
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 2
+  m_Files: []
+  m_BuildSteps:
+  - stepName: Build player
+    durationTicks: 59144255
+    depth: 0
+    messages: []
+  - stepName: Preprocess Player
+    durationTicks: 220187
+    depth: 1
+    messages: []
+  - stepName: Prepare For Build
+    durationTicks: 76844
+    depth: 1
+    messages: []
+  - stepName: ProducePlayerScriptAssemblies
+    durationTicks: 58371405
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 45360087
+    depth: 2
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 45289502
+    depth: 3
+    messages:
+    - type: 0
+      content: 'Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\GraphicRebuildTracker.cs(24,32):
+        error CS0117: ''CanvasRenderer'' does not contain a definition for ''onRequestRebuild'''
+    - type: 0
+      content: 'Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\DefaultControls.cs(154,13):
+        error CS0103: The name ''Undo'' does not exist in the current context'
+    - type: 0
+      content: 'Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Scrollbar.cs(171,18):
+        error CS0234: The type or namespace name ''PrefabUtility'' does not exist
+        in the namespace ''UnityEditor'' (are you missing an assembly reference?)'
+    - type: 0
+      content: 'Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Slider.cs(398,18):
+        error CS0234: The type or namespace name ''PrefabUtility'' does not exist
+        in the namespace ''UnityEditor'' (are you missing an assembly reference?)'
+    - type: 0
+      content: 'Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\InputModules\StandaloneInputModule.cs(159,21):
+        error CS0234: The type or namespace name ''EditorApplication'' does not exist
+        in the namespace ''UnityEditor'' (are you missing an assembly reference?)'
+    - type: 0
+      content: 'Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Toggle.cs(122,18):
+        error CS0234: The type or namespace name ''PrefabUtility'' does not exist
+        in the namespace ''UnityEditor'' (are you missing an assembly reference?)'
+    - type: 0
+      content: 'Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Selectable.cs(805,48):
+        error CS0234: The type or namespace name ''SceneManagement'' does not exist
+        in the namespace ''UnityEditor'' (are you missing an assembly reference?)'
+    - type: 0
+      content: 'Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\InputField.cs(2721,43):
+        error CS0234: The type or namespace name ''PrefabUtility'' does not exist
+        in the namespace ''UnityEditor'' (are you missing an assembly reference?)'
+    - type: 0
+      content: Error building Player because scripts had compiler errors
+  m_Appendices:
+  - {fileID: -729709018803199706}
+  - {fileID: 6668354914878296689}
+  - {fileID: -6158382257170823525}
+--- !u!641289076 &6668354914878296689
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0

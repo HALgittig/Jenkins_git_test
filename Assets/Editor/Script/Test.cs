@@ -3,6 +3,7 @@ using UnityEditor;
 #endif
 public static class Test
 {
+
 #if UNITY_EDITOR
     public static void Build_test()
     {
@@ -11,5 +12,6 @@ public static class Test
         BuildPipeline.BuildPlayer(sceneList, "C:/work/Jenkins_test/test.exe", BuildTarget.StandaloneWindows64, BuildOptions.Development);
     }
 #endif
+
 }
 

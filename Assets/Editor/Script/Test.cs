@@ -12,6 +12,5 @@ public static class Test
         BuildPipeline.BuildPlayer(sceneList, "C:/work/Jenkins_test/test.exe", BuildTarget.StandaloneWindows64, BuildOptions.Development);
     }
 #endif
-
 }
 
